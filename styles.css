@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Raleway;
+    background-color: black;
+}
+
+div.bandito {
+    color: white;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+div.bandito:hover {
+    box-shadow: 2px 4px 8px 8px grey;
+}
+
+a {
+    display: inline-block;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: black;
+    text-decoration: inherit;
+    color: white;
+}
+
+a:hover {
+    border: none;
+    text-decoration: underline;
+}
